@@ -1,0 +1,66 @@
+/*JH site style1*/
+header{
+    width: 100%;
+    border: 1px solid;
+    background-color: rgb(88, 83, 83);
+    
+}
+h1{
+    text-align: center;
+    font-variant: small-caps;
+    color: aliceblue;
+}
+p{
+    color: aliceblue;
+}
+body{
+    text-align: center;
+}
+div {
+    border: 1px solid;
+    transition: width 1s, height 1s, rotate 1s, transform 1s, border-radius 1s;
+    text-align: center;
+    line-height: 200px;
+    margin: 40px;
+    
+}
+#div1 {
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    background-color: #986544;
+}
+#div2 {
+    display: inline-block;
+    height:200px;
+    width: 200px;
+    background-color: #764298;
+}
+#div3 {
+    display: inline-block;
+    height:200px;
+    width:200px;
+    background-color: aqua;
+}
+#div1:hover{
+    width: 250px;
+    height: 250px;
+}
+
+#div2:hover{
+    transform: rotate(180deg);
+}
+
+#div3:hover{
+    border-radius:200px;
+
+}
+#pizza{
+    size: 100px 100px;
+}
+footer{
+    border: 1px solid;
+    width: 100%;
+    background-color: rgb(88, 83, 83);
+
+}
